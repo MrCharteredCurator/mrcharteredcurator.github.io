@@ -31,6 +31,7 @@ _or_
 * Item 2
 * Item 3
 </div>
+
 ```markdown
 - Item 1
 - Item 2
@@ -50,6 +51,7 @@ _or_
 1. Item 2
 1. Item 3
 </div>
+
 ```markdown
 1. Item 1
 1. Item 2
@@ -85,6 +87,7 @@ Definition lists require HTML syntax and aren't supported with the GitHub Flavor
 <dd>Green</dd>
 </dl>
 </div>
+
 ```html
 <dl>
   <dt>Name</dt>

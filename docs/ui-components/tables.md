@@ -19,6 +19,7 @@ Tables are responsive by default, allowing wide tables to have a horizontal scro
 | ok           | good `zoute` drop | yumm  |
 
 </div>
+
 ```markdown
 | head1        | head two          | three |
 |:-------------|:------------------|:------|

@@ -29,6 +29,7 @@ nav_order: 2
 
 [Link button](http://example.com/){: .btn .btn-outline }
 </div>
+
 ```markdown
 [Link button](http://example.com/){: .btn }
 
@@ -67,6 +68,7 @@ Wrap the button in a container that uses the [font-size utility classes]({{ site
 [Tiny ass button](http://example.com/){: .btn }
 </span>
 </div>
+
 ```markdown
 <span class="fs-8">
 [Link button](http://example.com/){: .btn }
@@ -88,6 +90,7 @@ Use the [margin utility classes]({{ site.baseurl }}{% link docs/utilities/layout
 [Button with more space](http://example.com/){: .btn .btn-green .mr-4 }
 [Button ](http://example.com/){: .btn .btn-blue }
 </div>
+
 ```markdown
 [Button with space](http://example.com/){: .btn .btn-purple .mr-2 }
 [Button ](http://example.com/){: .btn .btn-blue }
