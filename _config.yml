@@ -17,7 +17,7 @@
 title: Mr Chartered Curator
 description: Curating a No-nonsense knowledge-base for CA Students.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://mrcharteredcurator.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mrcharteredcurator.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
@@ -69,7 +69,7 @@ aux_links:
     - "https://mrcharteredcurator.github.io/#"
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
+aux_links_new_tab: true
 
 # Sort order for navigation links
 # nav_sort: case_insensitive # default, equivalent to nil

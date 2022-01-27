@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: Curating a No-nonsense knowledge-base for CA Students.
+description: "Curating a No-nonsense knowledge-base for CA Students."
 permalink: /
 ---
 
