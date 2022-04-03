@@ -2,7 +2,7 @@
 // Typography
 //
 
-$body-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+$body-font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
   Roboto, "Helvetica Neue", Arial, sans-serif !default;
 $mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace !default;
 $root-font-size: 16px !default; // Base font-size for rems
@@ -15,14 +15,14 @@ $body-heading-line-height: 1.25 !default;
 // `-sm` suffix is the size at the small (and above) media query
 //
 
-$font-size-1: 9px !default;
-$font-size-1-sm: 10px !default;
-$font-size-2: 11px !default; //h4 - uppercased!, h6 not uppercased, text-small
-$font-size-3: 12px !default; //h5
-$font-size-4: 14px !default;
-$font-size-5: 16px !default; //h3
-$font-size-6: 18px !default; //h2
-$font-size-7: 24px !default;
+$font-size-1: 10px !default;
+$font-size-1-sm: 11px !default;
+$font-size-2: 16px !default; //h4 - uppercased!, h6 not uppercased, text-small
+$font-size-3: 18px !default; //h5
+$font-size-4: 20px !default;
+$font-size-5: 24px !default; //h3
+$font-size-6: 28px !default; //h2
+$font-size-7: 30px !default;
 $font-size-8: 32px !default; //h1
 $font-size-9: 36px !default;
 $font-size-10: 42px !default;
@@ -34,13 +34,13 @@ $font-size-10-sm: 48px !default;
 
 $white: #fff !default;
 
-$grey-dk-000: #959396 !default;
-$grey-dk-100: #5c5962 !default;
-$grey-dk-200: #44434d !default;
-$grey-dk-250: #302d36 !default;
-$grey-dk-300: #27262b !default;
+$grey-dk-000: #424242 !default; //MrCC #959396
+$grey-dk-100: #282828 !default; //MrCC #5c5962
+$grey-dk-200: #555555 !default; //MrCC
+$grey-dk-250: #393939 !default; //MrCC
+$grey-dk-300: #232425 !default; //MrCC #27262b
 
-$grey-lt-000: #f5f6fa !default;
+$grey-lt-000: #f4f4f4 !default; //MrCC #f5f6fa
 $grey-lt-100: #eeebee !default;
 $grey-lt-200: #ecebed !default;
 $grey-lt-300: #e6e1e8 !default;
@@ -77,13 +77,13 @@ $table-background-color: $white !default;
 $code-background-color: $grey-lt-000 !default;
 $feedback-color: darken($sidebar-color, 3%) !default;
 
-$body-text-color: $grey-dk-100 !default;
+$body-text-color: $grey-dk-100 !default; 
 $body-heading-color: $grey-dk-300 !default;
 $search-result-preview-color: $grey-dk-000 !default;
 $nav-child-link-color: $grey-dk-100 !default;
-$link-color: $purple-000 !default;
-$btn-primary-color: $purple-100 !default;
-$base-button-color: #f7f7f7 !default;
+$link-color: $blue-000 !default; //MrCC
+$btn-primary-color: $blue-100 !default; //MrCC
+$base-button-color: #f4f4f4 !default; //MrCC
 
 //
 // Spacing
